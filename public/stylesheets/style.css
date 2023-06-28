@@ -1,8 +1,145 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
 }
 
-a {
-  color: #00B7FF;
+/* Heading Styles */
+.Company-Slogan {
+  font-size: 22px;
+} 
+
+.navbar-brand {
+  font-size: 22px;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 18px;
+}
+
+/*Navbar Section */
+.navbar {
+  background-color: #146C94;
+  font-weight: bold;
+}
+
+
+/* Company Mission Statement Section */
+#Mission {
+  background-color: #146C94;
+  padding: 30px;
+  text-align: center;
+}
+
+.Company-Slogan {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.Company-Logo {
+max-width: 90%;
+max-height: 80%;
+}
+
+
+/* List of Services Section */
+#Services {
+  background-color: silver;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Price Session */
+#Prices {
+  background-color: silver;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Testimonial Section */
+#Testimonials {
+  background-color: #19A7CE;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Testimonial Styles */
+blockquote {
+  background-color: #19A7CE;
+  font-style: italic;
+}
+
+blockquote p {
+  margin-bottom: 10px;
+}
+
+blockquote cite {
+  font-weight: bold;
+}
+
+/* About Us Section */
+#About-Us {
+  background-color: silver;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Contact Us Section */
+#Contact-Us {
+  background-color: #146C94;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Footer */
+.footer-basic {
+  background-color: #146C94;;
+}
+
+
+/* mobile phone optimization */
+
+@media (max-width: 576px) {
+  /* Adjust the breakpoint as needed */
+
+  /* Reduce img size for mobile devices */
+  .Company-Logo {
+      max-width: 50%;
+      max-height: 40%;
+    }
+  
+  /* Reduce font size for mobile devices */
+  .Company-Slogan {
+    font-size: 17px;
+  } 
+
+  .navbar-brand {
+    font-size: 17px;
+  }
+
+  h2{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  /* Reduce padding for mobile devices */
+  #Mission,
+  #Services,
+  #Prices,
+  #Testimonials,
+  #About-Us,
+  #contact-Us {
+    padding: 20px;
+  }
 }

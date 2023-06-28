@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'AVO Mobile Detailing' });
+  res.render('index', { title: 'AVO Mobile Detailing | Auto Consultant' });
 });
 
 module.exports = router;
