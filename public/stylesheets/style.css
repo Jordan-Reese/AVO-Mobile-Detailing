@@ -25,7 +25,7 @@ p{
 
 /*Navbar Section */
 .navbar {
-  background-color: #146C94;
+  background-color: silver;
   font-weight: bold;
 }
 
@@ -51,17 +51,30 @@ max-height: 80%;
 
 /* List of Services Section */
 #Services {
-  background-color: silver;
+  background-color: #146C94;
   padding: 30px;
   text-align: center;
 }
 
 /* Price Session */
 #Prices {
-  background-color: silver;
+  background-color: #146C94;
   padding: 30px;
   text-align: center;
 }
+
+.card-header1 {
+  background-color: silver;
+}
+
+.card-header2 {
+  background-color: goldenrod;
+}
+
+.card-header3 {
+  background-color: #E5E4E2;
+}
+
 
 /* Testimonial Section */
 #Testimonials {
@@ -84,13 +97,6 @@ blockquote cite {
   font-weight: bold;
 }
 
-/* About Us Section */
-#About-Us {
-  background-color: silver;
-  padding: 30px;
-  text-align: center;
-}
-
 /* Contact Us Section */
 #Contact-Us {
   background-color: #146C94;
@@ -100,7 +106,7 @@ blockquote cite {
 
 /* Footer */
 .footer-basic {
-  background-color: #146C94;;
+  background-color: silver;
 }
 
 
