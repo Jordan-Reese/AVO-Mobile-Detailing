@@ -1,0 +1,49 @@
+
+
+<div class="table-wrap">
+  <table>
+    <thead>
+      Contact us 
+      999-999-99999
+      Instagram Icon
+    </thead>
+    <tbody>
+      <tr>
+        <td>Full Name:</td>
+        <td><input type="text" id="fullname" name="fullname" class="form-control" required></td>
+        <td rowspan="5" style="vertical-align: top;">[Insert phone number]</td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" id="email" name="email" class="form-control" required></td>
+      </tr>
+      <tr>
+        <td>Vehicle Notes:</td>
+        <td><input type="text" id="notes" name="notes" class="form-control" required></td>
+      </tr>
+      <tr>
+        <td>Type of Service:</td>
+        <td><input type="text" id="service" name="service" class="form-control" required></td>
+      </tr>
+      <tr>
+        <td>Desired Date of Service:</td>
+        <td><input type="date" id="date" name="date" class="form-control" required></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button type="submit" class="btn btn-primary" onclick="showConfirmation()">Submit</button></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div id="confirmation" style="display:none" class="border p-3 bg-light">
+  <p>Thank you for submitting your request. We will be in touch soon to confirm your appointment.</p>
+</div>
+
+<script>
+  function showConfirmation() {
+    document.getElementById("confirmation").style.display = "block";
+  }
+</script>

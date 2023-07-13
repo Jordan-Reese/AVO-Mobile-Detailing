@@ -19,6 +19,10 @@ h2{
   font-weight: bold;
 }
 
+h3{
+  font-size: 22px;
+}
+
 p{
   font-size: 18px;
 }
@@ -58,20 +62,17 @@ max-height: 80%;
 
 /* Price Session */
 #Prices {
-  background-color: #146C94;
+  background-color:#19A7CE;
   padding: 30px;
   text-align: center;
+  justify-content: center;
 }
 
 .card-header1 {
-  background-color: silver;
-}
-
-.card-header2 {
   background-color: goldenrod;
 }
 
-.card-header3 {
+.card-header2 {
   background-color: #E5E4E2;
 }
 
@@ -103,6 +104,14 @@ blockquote cite {
   padding: 30px;
   text-align: center;
 }
+
+form {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+}
+
+
 
 /* Footer */
 .footer-basic {
