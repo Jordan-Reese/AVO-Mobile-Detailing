@@ -1,38 +1,47 @@
-
-
 <div class="table-wrap">
   <table>
     <thead>
-      Contact us 
-      999-999-99999
-      Instagram Icon
+      <tr>
+        <th colspan="2">Contact us</th>
+      </tr>
+      <tr>
+        <td colspan="2">Call us: 999-999-9999</td>
+      </tr>
+      <tr>
+        <td colspan="2">Follow us: 
+        <a href="https://instagram.com/avomobiledetailing">
+          <img class="insta-logo" src="/images/instagram.png" alt="Instagram">
+        </a>
+        <a href="mailto:jordanreese.usma@gmail.com">
+          <img class="mail-logo" src="/images/gmail.png" alt="Gmail">
+        </a>
+        </td>
+      </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Full Name:</td>
-        <td><input type="text" id="fullname" name="fullname" class="form-control" required></td>
-        <td rowspan="5" style="vertical-align: top;">[Insert phone number]</td>
+        <td><label for="fullname">Full Name:</label></td>
+        <td><input type="text" id="fullname" name="fullname" class="form-control" placeholder="ex. John Doe" required></td>
       </tr>
       <tr>
-        <td>Email:</td>
-        <td><input type="email" id="email" name="email" class="form-control" required></td>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" class="form-control" placeholder="ex. Johndoe@gmail.com" required></td>
       </tr>
       <tr>
-        <td>Vehicle Notes:</td>
+        <td><label for="notes">Vehicle Notes:</label></td>
         <td><input type="text" id="notes" name="notes" class="form-control" required></td>
       </tr>
       <tr>
-        <td>Type of Service:</td>
-        <td><input type="text" id="service" name="service" class="form-control" required></td>
+        <td><label for="service">Type of Service:</label></td>
+        <td><input type="text" id="service" name="service" class="form-control" placeholder="All Pro vs Pro" required></td>
       </tr>
       <tr>
-        <td>Desired Date of Service:</td>
+        <td><label for="date">Desired Date of Service:</label></td>
         <td><input type="date" id="date" name="date" class="form-control" required></td>
       </tr>
       <tr>
         <td></td>
         <td><button type="submit" class="btn btn-primary" onclick="showConfirmation()">Submit</button></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -44,6 +53,14 @@
 
 <script>
   function showConfirmation() {
+    // Clear the form fields
+    document.getElementById("fullname").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("notes").value = "";
+    document.getElementById("service").value = "";
+    document.getElementById("date").value = "";
+    
+    // Display the confirmation message
     document.getElementById("confirmation").style.display = "block";
   }
 </script>

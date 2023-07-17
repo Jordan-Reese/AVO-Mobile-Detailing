@@ -100,23 +100,38 @@ blockquote cite {
 
 /* Contact Us Section */
 #Contact-Us {
-  background-color: #146C94;
+  background-image: url(/images/CleaningIMG-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 30px;
   text-align: center;
 }
 
-form {
-  border: 1px solid black;
-  padding: 10px;
-  background-color: white;
+thead {
+  border-style: solid;
+  border-color: black;
+  background-color: #146C94;
 }
 
+tbody {
+border-color: black;
+border-style: solid;
+background-color: #146C94;
+}
 
+.insta-logo, 
+.mail-logo {
+  width: 40px;
+  height: 40px;
+}
 
 /* Footer */
 .footer-basic {
   background-color: silver;
 }
+
+
+
 
 
 /* mobile phone optimization */
