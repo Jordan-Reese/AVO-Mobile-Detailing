@@ -67,7 +67,8 @@ max-height: 80%;
 
 /* List of Services Section */
 #Services {
-  background-image: url(/images/CleaningIMG.jpg);
+  background-image: url(/images/cleaning5.jpg);
+  background-size: cover;
   background-color: #146C94;
   padding: 30px;
   text-align: center;
@@ -188,6 +189,10 @@ text-align: center;
     width: 100%;
   }
 
+  /* services h2 color change */
+  .services {
+    color: white;
+  }
 
   /* Reduce img size for mobile devices */
   .Company-Logo {
