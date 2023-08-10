@@ -6,9 +6,7 @@ const templateFilePath = './views/index.ejs';
 const destinationFilePath = './public/index.html';
 
 const data = {  
-    title: 'AVO Mobile Detailing | Auto Consultant',
-    description: 'AVO Mobile Detailing | Auto Consultant',
-    keywords: 'AVO Mobile Detailing | Auto Consultant',
+    title: 'AVO Mobile Detailing | Auto Consultant'
 };
 
 

@@ -1,5 +1,5 @@
 {
-  "name": "avo-detailing",
+  "name": "AVO Mobile Detailing | Auto Consultant",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -15,5 +15,40 @@
     "morgan": "~1.9.1",
     "node": "^20.4.0",
     "nodemon": "^3.0.1"
-  }
+    "serverless-http": "^3.2.0"
+  },
+  "description": "AVO Mobile Detailing is a premier automotive detailing service dedicated to serving the Austin community. Our expert team specializes in providing meticulous car detailing that will leave your vehicle looking impeccable. From thorough exterior cleaning and paint correction to interior detailing and upholstery care, we take pride in delivering exceptional results. Trust AVO Mobile Detailing to enhance the beauty and preserve the value of your vehicle. Experience top-notch customer service and convenience with our mobile service that brings our expertise to your doorstep. Book your appointment today and give your car the luxury treatment it deserves.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordan-Reese/AVO-Mobile-Detailing.git"
+  },
+  "keywords": [
+    "car detailing near me",  
+    "car detailing austin",
+    "car detailing",
+    "car detailing service",
+    "car detailing service near me",
+    "car detailing austin tx",
+    "car detailing austin texas",
+    "mobile car detailing",
+    "mobile car detailing near me",
+    "mobile car detailing austin", 
+    "car wash",
+    "car wash near me",
+    "car wash austin",
+    "car wash austin tx",
+    "best car detailing",
+    "best car detailing near me",
+    "best car detailing austin",
+    "AVO Mobile Detailing",
+    "AVO Mobile Detailing Austin",
+    "AVO Mobile Detailing Austin TX"
+  ],
+  "author": "Jordan Reese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jordan-Reese/AVO-Mobile-Detailing/issues"
+  },
+  "homepage": "https://github.com/Jordan-Reese/AVO-Mobile-Detailing#readme"
 }
