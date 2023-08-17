@@ -16,7 +16,8 @@
     "morgan": "~1.9.1",
     "node": "^20.4.0",
     "nodemon": "^3.0.1",
-    "serverless-http": "^3.2.0"
+    "serverless-http": "^3.2.0",
+    "sharp": "^0.32.5"
   },
   "description": "AVO Mobile Detailing is a premier automotive detailing service dedicated to serving the Austin community. Our expert team specializes in providing meticulous car detailing that will leave your vehicle looking impeccable. From thorough exterior cleaning and paint correction to interior detailing and upholstery care, we take pride in delivering exceptional results. Trust AVO Mobile Detailing to enhance the beauty and preserve the value of your vehicle. Experience top-notch customer service and convenience with our mobile service that brings our expertise to your doorstep. Book your appointment today and give your car the luxury treatment it deserves.",
   "main": "app.js",
